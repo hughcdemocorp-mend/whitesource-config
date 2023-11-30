@@ -12,7 +12,7 @@
     "incrementalScan": true,
     "baseBranches": [],
     "snippetSize": 10,
-    "configExternalURL": "https://raw.githubusercontent.com/hughcdemocorp-mend/whitesource-config/main/mendsastcli-config.json"
+    "configExternalURL": "https://raw.githubusercontent.com/hughcdemocorp-mend/whitesource-config/main/mendsastcli-config.json?token=GHSAT0AAAAAAB4FHTGU5VAWCN5DOQUSFG5AZLIWLQQ"
   },
   "imageSettings": {
     "imageTracing": {

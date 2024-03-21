@@ -1,0 +1,9 @@
+{
+  "repositories": [
+    {
+      "fullName": "hughcdemocorp-mend/WebGoat3",
+      "branchName": "main",
+      "uploadScannerLogs": true
+    }
+  ]
+}

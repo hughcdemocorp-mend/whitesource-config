@@ -5,15 +5,15 @@
     "baseBranches": [],
     "enableLicenseViolations": true,
     "enableReachability": true,
-    "exploitability": true
+    "exploitability": true,
+    "releaseBranches": ["v.*"]
   },
   "scanSettingsSAST": {
     "enableScan": true,
     "scanPullRequests": true,
     "incrementalScan": true,
     "baseBranches": [],
-    "snippetSize": 10,
-    "configExternalURL": "https://raw.githubusercontent.com/hughcdemocorp-mend/whitesource-config/main/mendsastcli-config.json?token=GHSAT0AAAAAAB4FHTGU5VAWCN5DOQUSFG5AZLIWLQQ"
+    "snippetSize": 10
   },
   "imageSettings": {
     "imageTracing": {
@@ -26,11 +26,16 @@
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
     "useMendCheckNames": true,
-    "strictMode": "warning"
+    "strictMode": "failure"
   },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
     "severityThreshold": "high"
+  },
+  "releaseBranchSettings": {
+    "checkRunSettings.failOnLicenseViolation": true,
+    "checkRunSettings.strictMode": "failure",
+    "checkRunSettings.failOnVulnerabilityMinCvss": 9.0
   },
   "issueSettings": {
     "minSeverityLevel": "LOW",
